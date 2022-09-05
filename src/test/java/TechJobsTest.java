@@ -18,7 +18,7 @@ public class TechJobsTest {
     private static ByteArrayOutputStream baos;
 
     // set up an alternative output stream to capture output
-    // this needs to be done before every test so we don't contaminate test output
+    // this needs to be done before every test, so we don't contaminate test output
     @Before
     public void setUpOutputStream() {
         baos = new ByteArrayOutputStream();
